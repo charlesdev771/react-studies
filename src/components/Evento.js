@@ -1,3 +1,4 @@
+import Button from "./Button";
 export default function Evento(numero)
 {
 
@@ -11,7 +12,9 @@ export default function Evento(numero)
         <>
         
             <p>Evento</p>
+            <button text='Primeiro' />
             <button onClick={event}>Ativar</button>
+            <Button text='JOOJ' />
         
         </>
     );
